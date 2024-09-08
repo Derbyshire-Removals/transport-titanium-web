@@ -1,6 +1,6 @@
 import React from 'react';
 import { Button } from "@/components/ui/button";
-import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/components/ui/card";
+import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
 import { TruckIcon, UserIcon } from 'lucide-react';
 
 const Index = () => {
@@ -12,6 +12,18 @@ const Index = () => {
           <p className="text-xl">Your Reliable Transport Partner</p>
         </div>
       </header>
+
+      <div className="relative h-[60vh] bg-gray-900 text-white">
+        <div className="absolute inset-0 bg-[url('/placeholder.svg')] bg-cover bg-center opacity-50"></div>
+        <div className="absolute inset-0 bg-black bg-opacity-50"></div>
+        <div className="relative container mx-auto h-full flex flex-col justify-center items-start p-8">
+          <h2 className="text-4xl font-bold mb-4">Efficient Transport Solutions</h2>
+          <p className="text-xl mb-6">Specializing in artic and tipper services with Class 1 and Class 2 drivers</p>
+          <Button size="lg" variant="outline" className="text-white border-white hover:bg-white hover:text-blue-600">
+            Learn More
+          </Button>
+        </div>
+      </div>
 
       <main className="container mx-auto py-8">
         <section className="mb-12">
