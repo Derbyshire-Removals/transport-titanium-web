@@ -46,6 +46,7 @@ const Index = () => {
       <footer className="bg-gray-800 text-white py-6">
         <div className="container mx-auto text-center">
           <p>&copy; 2024 RSB UK Transport Ltd. All rights reserved.</p>
+          <p>Company number: 10310660</p>
         </div>
       </footer>
     </div>
