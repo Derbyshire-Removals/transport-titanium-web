@@ -24,10 +24,10 @@ const Index = () => {
         </div>
       </div>
 
-      <main className="container mx-auto py-8">
-        <section className="mb-12">
-          <h2 className="text-2xl font-semibold mb-4">Welcome to RSB Transport Ltd</h2>
-          <p className="text-lg">
+      <main>
+        <section className="container mx-auto py-16">
+          <h2 className="text-3xl font-bold mb-6 text-center">Welcome to RSB Transport Ltd</h2>
+          <p className="text-xl text-center max-w-3xl mx-auto">
             We are a leading transport company specializing in artic and tipper services. 
             With our fleet of vehicles and skilled drivers, we provide efficient and reliable 
             transportation solutions for your needs.
@@ -37,13 +37,13 @@ const Index = () => {
         <VehicleSection />
         <DriverSection />
 
-        <section className="text-center mt-12">
-          <h2 className="text-2xl font-semibold mb-4">Ready to Get Started?</h2>
+        <section className="text-center py-16 bg-gray-100">
+          <h2 className="text-3xl font-bold mb-6">Ready to Get Started?</h2>
           <Button size="lg">Contact Us</Button>
         </section>
       </main>
 
-      <footer className="bg-gray-800 text-white py-4 mt-12">
+      <footer className="bg-gray-800 text-white py-6">
         <div className="container mx-auto text-center">
           <p>&copy; 2024 RSB Transport Ltd. All rights reserved.</p>
         </div>
