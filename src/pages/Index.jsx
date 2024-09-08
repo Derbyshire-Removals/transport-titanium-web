@@ -1,7 +1,7 @@
 import React from 'react';
 import { Button } from "@/components/ui/button";
-import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
-import { TruckIcon, UserIcon, PackageIcon, ShieldCheckIcon, ClockIcon, AwardIcon } from 'lucide-react';
+import VehicleSection from '../components/VehicleSection';
+import DriverSection from '../components/DriverSection';
 
 const Index = () => {
   return (
@@ -34,57 +34,10 @@ const Index = () => {
           </p>
         </section>
 
-        <section className="grid md:grid-cols-2 gap-8 mb-12">
-          <Card className="overflow-hidden transition-all duration-300 hover:shadow-lg">
-            <CardHeader className="bg-primary text-white">
-              <CardTitle className="flex items-center text-2xl">
-                <TruckIcon className="mr-2 h-6 w-6" /> Our Vehicles
-              </CardTitle>
-            </CardHeader>
-            <CardContent className="p-6">
-              <ul className="space-y-4">
-                <li className="flex items-center">
-                  <PackageIcon className="mr-2 h-5 w-5 text-primary" />
-                  <span>Articulated Lorries (Artics)</span>
-                </li>
-                <li className="flex items-center">
-                  <TruckIcon className="mr-2 h-5 w-5 text-primary" />
-                  <span>Tippers</span>
-                </li>
-                <li className="flex items-center">
-                  <ShieldCheckIcon className="mr-2 h-5 w-5 text-primary" />
-                  <span>Modern and well-maintained fleet</span>
-                </li>
-              </ul>
-            </CardContent>
-          </Card>
+        <VehicleSection />
+        <DriverSection />
 
-          <Card className="overflow-hidden transition-all duration-300 hover:shadow-lg">
-            <CardHeader className="bg-primary text-white">
-              <CardTitle className="flex items-center text-2xl">
-                <UserIcon className="mr-2 h-6 w-6" /> Our Drivers
-              </CardTitle>
-            </CardHeader>
-            <CardContent className="p-6">
-              <ul className="space-y-4">
-                <li className="flex items-center">
-                  <AwardIcon className="mr-2 h-5 w-5 text-primary" />
-                  <span>Class 1 (Category C+E) Drivers</span>
-                </li>
-                <li className="flex items-center">
-                  <AwardIcon className="mr-2 h-5 w-5 text-primary" />
-                  <span>Class 2 (Category C) Drivers</span>
-                </li>
-                <li className="flex items-center">
-                  <ClockIcon className="mr-2 h-5 w-5 text-primary" />
-                  <span>Experienced and professional team</span>
-                </li>
-              </ul>
-            </CardContent>
-          </Card>
-        </section>
-
-        <section className="text-center">
+        <section className="text-center mt-12">
           <h2 className="text-2xl font-semibold mb-4">Ready to Get Started?</h2>
           <Button size="lg">Contact Us</Button>
         </section>
