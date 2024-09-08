@@ -12,7 +12,7 @@ const Index = () => {
       </header>
 
       <div className="relative h-[60vh] bg-gray-900 text-white">
-        <div className="absolute inset-0 bg-[url('/placeholder.svg')] bg-cover bg-center opacity-50"></div>
+        <div className="absolute inset-0 bg-[url('/img-1.jpeg')] bg-cover bg-center opacity-50"></div>
         <div className="absolute inset-0 bg-black bg-opacity-50"></div>
         <div className="relative container mx-auto h-full flex flex-col justify-center items-start p-8">
           <h2 className="text-4xl font-bold mb-4">Efficient Transport Solutions</h2>

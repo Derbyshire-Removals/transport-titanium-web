@@ -6,7 +6,7 @@ const VehicleSection = () => {
     <section className="bg-gray-100 py-16">
       <div className="container mx-auto flex flex-col md:flex-row items-center gap-12">
         <div className="w-full md:w-1/2">
-          <img src="/placeholder.svg" alt="Our Vehicles" className="rounded-lg shadow-lg w-full h-96 object-cover" />
+          <img src="/img-2.jpeg" alt="Our Vehicles" className="rounded-lg shadow-lg w-full h-96 object-cover" />
         </div>
         <div className="w-full md:w-1/2">
           <h2 className="text-3xl font-bold mb-6 text-primary">Our Vehicles</h2>
