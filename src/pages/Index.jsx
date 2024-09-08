@@ -39,7 +39,7 @@ const Index = () => {
 
         <section className="text-center py-16 bg-gray-100">
           <h2 className="text-3xl font-bold mb-6">Ready to Get Started?</h2>
-          <Button size="lg">Contact Us</Button>
+          <p className="text-xl">Contact us at: RSB.uktransport@hotmail.com</p>
         </section>
       </main>
 
