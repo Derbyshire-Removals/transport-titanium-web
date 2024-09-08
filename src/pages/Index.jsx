@@ -9,7 +9,6 @@ const Index = () => {
       <header className="bg-blue-600 text-white p-4">
         <div className="container mx-auto">
           <h1 className="text-3xl font-bold">RSBTransport Ltd</h1>
-          <p className="text-xl">Your Reliable Transport Partner</p>
         </div>
       </header>
 
