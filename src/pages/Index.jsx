@@ -1,5 +1,4 @@
 import React from 'react';
-import { Button } from "@/components/ui/button";
 import VehicleSection from '../components/VehicleSection';
 import DriverSection from '../components/DriverSection';
 
@@ -18,9 +17,6 @@ const Index = () => {
         <div className="relative container mx-auto h-full flex flex-col justify-center items-start p-8">
           <h2 className="text-4xl font-bold mb-4">Efficient Transport Solutions</h2>
           <p className="text-xl mb-6">Specializing in artic and tipper services with Class 1 and Class 2 drivers</p>
-          <Button size="lg" variant="outline" className="text-white border-white hover:bg-white hover:text-primary">
-            Learn More
-          </Button>
         </div>
       </div>
 
