@@ -6,9 +6,9 @@ import { TruckIcon, UserIcon } from 'lucide-react';
 const Index = () => {
   return (
     <div className="min-h-screen bg-gray-100">
-      <header className="bg-blue-600 text-white p-4">
+      <header className="bg-primary text-white p-4">
         <div className="container mx-auto">
-          <h1 className="text-3xl font-bold">RSBTransport Ltd</h1>
+          <h1 className="text-3xl font-bold">RSB Transport Ltd</h1>
         </div>
       </header>
 
@@ -18,7 +18,7 @@ const Index = () => {
         <div className="relative container mx-auto h-full flex flex-col justify-center items-start p-8">
           <h2 className="text-4xl font-bold mb-4">Efficient Transport Solutions</h2>
           <p className="text-xl mb-6">Specializing in artic and tipper services with Class 1 and Class 2 drivers</p>
-          <Button size="lg" variant="outline" className="text-white border-white hover:bg-white hover:text-blue-600">
+          <Button size="lg" variant="outline" className="text-white border-white hover:bg-white hover:text-primary">
             Learn More
           </Button>
         </div>
@@ -26,7 +26,7 @@ const Index = () => {
 
       <main className="container mx-auto py-8">
         <section className="mb-12">
-          <h2 className="text-2xl font-semibold mb-4">Welcome to RSBTransport Ltd</h2>
+          <h2 className="text-2xl font-semibold mb-4">Welcome to RSB Transport Ltd</h2>
           <p className="text-lg">
             We are a leading transport company specializing in artic and tipper services. 
             With our fleet of vehicles and skilled drivers, we provide efficient and reliable 
@@ -74,7 +74,7 @@ const Index = () => {
 
       <footer className="bg-gray-800 text-white py-4 mt-12">
         <div className="container mx-auto text-center">
-          <p>&copy; 2024 RSBTransport Ltd. All rights reserved.</p>
+          <p>&copy; 2024 RSB Transport Ltd. All rights reserved.</p>
         </div>
       </footer>
     </div>
